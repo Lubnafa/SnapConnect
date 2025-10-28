@@ -4,9 +4,9 @@ This repository contains Java development projects created by **Lubna**. The pro
 
 ## Projects
 
-### 1. Picbit - Image Sharing Spring Boot Application
+### 1. SnapConnect - Social Media Image Sharing Platform
 
-A full-featured REST API application built with Spring Boot for image sharing and social media functionality.
+A full-featured REST API application built with Spring Boot for connecting people through image sharing and social media functionality.
 
 #### Features:
 - **User Management**: Complete user registration, authentication, and profile management
@@ -25,7 +25,7 @@ A full-featured REST API application built with Spring Boot for image sharing an
 - File upload handling for images
 
 #### Database Configuration:
-- Database: `picbit_app_apis`
+- Database: `snapconnect_app_apis`
 - Username: `root`
 - Password: `Lubnafatima`
 
@@ -64,10 +64,10 @@ A console-based Java application for handling banking transactions with ACID pro
 - MySQL 8.0+
 - IDE (IntelliJ IDEA, Eclipse, or VS Code)
 
-### For Picbit Application:
-1. Navigate to the `Picbit` directory
+### For SnapConnect Application:
+1. Navigate to the `SnapConnect` directory
 2. Configure MySQL database connection in `src/main/resources/application.properties`
-3. Create database: `CREATE DATABASE picbit_app_apis;`
+3. Create database: `CREATE DATABASE snapconnect_app_apis;`
 4. Run: `./mvnw spring-boot:run`
 
 ### For Transaction System:

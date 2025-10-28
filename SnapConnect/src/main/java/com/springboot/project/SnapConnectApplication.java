@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class PicbitApplication {
+public class SnapConnectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PicbitApplication.class, args);
+		SpringApplication.run(SnapConnectApplication.class, args);
 	}
 	
 	@Bean
